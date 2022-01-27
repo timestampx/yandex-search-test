@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" relativePaths="false" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/6.2.0/selenide-6.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/4.1.1/selenium-java-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.1.1/selenium-api-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/4.1.1/selenium-chrome-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chromium-driver/4.1.1/selenium-chromium-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-json/4.1.1/selenium-json-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.1.1/selenium-remote-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.81/jcommander-1.81.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.70.Final/netty-buffer-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.70.Final/netty-common-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.70.Final/netty-codec-http-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.70.Final/netty-transport-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.70.Final/netty-resolver-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.70.Final/netty-handler-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-epoll/4.1.70.Final/netty-transport-classes-epoll-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-classes-kqueue/4.1.70.Final/netty-transport-classes-kqueue-4.1.70.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-api/1.9.1/opentelemetry-api-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-context/1.9.1/opentelemetry-context-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-exporter-logging/1.9.1/opentelemetry-exporter-logging-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-sdk/1.9.1/opentelemetry-sdk-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-sdk-common/1.9.1/opentelemetry-sdk-common-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-semconv/1.9.1-alpha/opentelemetry-semconv-1.9.1-alpha.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-sdk-trace/1.9.1/opentelemetry-sdk-trace-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-api-metrics/1.9.1-alpha/opentelemetry-api-metrics-1.9.1-alpha.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-sdk-metrics/1.9.1-alpha/opentelemetry-sdk-metrics-1.9.1-alpha.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-sdk-logs/1.9.1-alpha/opentelemetry-sdk-logs-1.9.1-alpha.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.1/opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.1-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-http/4.1.1/selenium-http-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-devtools-v85/4.1.1/selenium-devtools-v85-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-devtools-v94/4.1.1/selenium-devtools-v94-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-devtools-v95/4.1.1/selenium-devtools-v95-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-devtools-v96/4.1.1/selenium-devtools-v96-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/4.1.1/selenium-edge-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/4.1.1/selenium-firefox-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.1/selenium-firefox-xpi-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/4.1.1/selenium-ie-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-safari-driver/4.1.1/selenium-safari-driver-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/4.1.1/selenium-support-4.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide-core/6.2.0/selenide-core-6.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/5.0.3/webdrivermanager-5.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/brotli/dec/0.1.2/dec-0.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/client5/httpclient5/5.1.2/httpclient5-5.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/core5/httpcore5/5.1.2/httpcore5-5.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.15/commons-codec-1.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.codeborne:selenide:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auto.service:auto-service-annotations:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auto.service:auto-service:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auto:auto-common:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chromium-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-json:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-devtools-v85:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-devtools-v94:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-devtools-v95:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-devtools-v96:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-edge-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-firefox-xpi-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-ie-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-opera-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-remote-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.81" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-classes-epoll:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-classes-kqueue:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-unix-common:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.70.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-api:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-context:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-exporter-logging:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-metrics:1.9.1-alpha" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-logs:1.9.1-alpha" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-common:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.9.1-alpha" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk-trace:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-api-metrics:1.9.1-alpha" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-sdk:1.9.1" level="project" />
+    <orderEntry type="library" name="Maven: io.opentelemetry:opentelemetry-semconv:1.9.1-alpha" level="project" />
+    <orderEntry type="library" name="Maven: io.ous:jtoml:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-exec:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.asynchttpclient:async-http-client:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: org.asynchttpclient:async-http-client-netty-utils:2.12.3" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.netty:netty-reactive-streams:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-http:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.jodah:failsafe:2.4.4" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:4.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.codeborne:selenide-core:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.github.bonigarcia:webdrivermanager:5.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.8" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.14.2" level="project" />
+    <orderEntry type="library" name="Maven: org.brotli:dec:0.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-compress:1.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:31.0.1-jre" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.12.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.32" level="project" />
+  </component>
+</module>
